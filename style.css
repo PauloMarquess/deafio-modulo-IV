@@ -37,13 +37,13 @@ p {
   z-index: 2;
   background-color: white;
   width: 100%;
-  transition: 1s;
-  -webkit-box-shadow: -2px 7px 32px -4px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: -2px 7px 32px -4px rgba(0, 0, 0, 0.72);
   box-shadow: -2px 7px 32px -4px rgba(0, 0, 0, 0.72);
 }
 .navigation a {
   font-size: 1.5rem;
   cursor: pointer;
+  color: black;
 }
 .navigation a:hover {
   color: #438001;
