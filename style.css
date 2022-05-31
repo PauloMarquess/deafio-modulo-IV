@@ -242,7 +242,6 @@ p {
   font-size: 40px;
 }
 
-
 #my-stacks{
   display: flex;
   flex-wrap: wrap;
@@ -256,7 +255,50 @@ p {
   height: 350px;
   margin-bottom: 80px;
   border-radius: 8px;
-  
+}
+footer{
+  background: black;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+footer a {
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.comunication{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.comunication img{
+  width: 20px;
+  background-color: white;
+ 
+}
+
+.social-media{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+.social-media img {
+  width: 35px;
+  cursor: pointer;
+ border-radius: 4px;
 }
 
 /* Keyframes */
@@ -313,5 +355,16 @@ p {
    .stack{
     width: 80%;
     margin: auto;
+   }
+   footer{
+     flex-direction: column     ;
+     height: auto;
+     gap: 50px;
+     align-items: center;
+     padding: 40px;
+     align-items: flex-start;
+   }
+   .comunication{
+     font-size: 14px;
    }
 }
