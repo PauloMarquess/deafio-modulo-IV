@@ -20,8 +20,8 @@ img {
   width: 100%;
   object-fit: cover;
 }
-body{
-    background-image: url(./assets/img/background-2.jpg);
+body {
+  background-image: url(./assets/img/background-2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: top center;
@@ -79,9 +79,6 @@ p {
 
 /* Seção de apresentação */
 
-#presentation {
-  
-}
 #presentation h1 {
   display: block;
   width: fit-content;
@@ -154,24 +151,18 @@ p {
 
 #portfolio .portfolio {
   flex-direction: column;
-  
+
   margin: 0 auto;
   padding: 100px 0;
   width: 100%;
   gap: 20px;
   background-color: white;
-  
-
 }
-#portfolio .portfolio-header{
-  
-    width: 100%;
+#portfolio .portfolio-header {
+  width: 100%;
 }
 #portfolio .portfolio-header h1 {
   margin-bottom: 50px;
- 
-
-  
 }
 #portfolio .all-projects {
   display: flex;
@@ -179,10 +170,6 @@ p {
   justify-content: center;
   flex-direction: column;
   background-color: transparent;
- 
-
-  
-  
 }
 #portfolio .project-item {
   display: flex;
@@ -190,11 +177,10 @@ p {
   justify-content: center;
   flex-direction: column;
   width: 80%;
-  margin: 20px ;
+  margin: 20px;
   overflow: hidden;
   border-radius: 10px;
   gap: 20px;
-
 }
 
 #portfolio .project-info {
@@ -207,7 +193,6 @@ p {
   flex-direction: column;
   background-image: linear-gradient(60deg, #438001 0%, #041000 100%);
   color: white;
-  
 }
 
 #portfolio .project-info h1 {
@@ -243,6 +228,36 @@ p {
 }
 #portfolio .project-item:hover .project-img img {
   transform: scale(1.1);
+}
+.section-stacks{
+  display: flex;
+  flex-direction: column;
+  
+}
+.section-stacks h1{
+  color: gold;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+
+#my-stacks{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+  justify-content: space-evenly;
+  padding:  110px 0 0 0;
+}
+.stack{
+  width: 25%;
+  height: 350px;
+  margin-bottom: 80px;
+  border-radius: 8px;
+  
 }
 
 /* Keyframes */
