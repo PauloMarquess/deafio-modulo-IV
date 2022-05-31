@@ -248,8 +248,7 @@ p {
   flex-wrap: wrap;
   gap: 30px;
   background-color: rgba(0, 0, 0, 0.5);
- 
-  justify-content: space-evenly;
+   justify-content: space-evenly;
   padding:  110px 0 0 0;
 }
 .stack{
@@ -304,4 +303,15 @@ p {
   #portfolio .project-item:nth-child(even) {
     flex-direction: row-reverse;
   }
+  
+}
+@media (max-width:769px) {
+  #my-stacks{
+    flex-direction: column;
+    gap: 50px;
+   }
+   .stack{
+    width: 80%;
+    margin: auto;
+   }
 }
