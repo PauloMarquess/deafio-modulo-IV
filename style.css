@@ -279,6 +279,7 @@ p {
   width: 70%;
   max-width: 800px;
   align-self: center;
+  margin-bottom: 50px;
   
 }
 
@@ -406,7 +407,7 @@ footer a {
   #my-stacks {
     flex-direction: column;
     gap: 50px;
-    margin-bottom: 50px;
+    
     background-color: transparent;
   }
 
