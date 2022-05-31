@@ -15,11 +15,13 @@ html {
 a {
   text-decoration: none;
 }
+
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 body {
   background-image: url(./assets/img/background-2.jpg);
   background-size: cover;
@@ -28,6 +30,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 p {
   font-size: 1.4rem;
   margin-top: 5px;
@@ -35,6 +38,7 @@ p {
   font-weight: 200;
   letter-spacing: 0.05rem;
 }
+
 .navigation {
   display: flex;
   justify-content: flex-end;
@@ -49,11 +53,13 @@ p {
   -webkit-box-shadow: -2px 7px 32px -4px rgba(0, 0, 0, 0.72);
   box-shadow: -2px 7px 32px -4px rgba(0, 0, 0, 0.72);
 }
+
 .navigation a {
   font-size: 1.5rem;
   cursor: pointer;
   color: black;
 }
+
 .navigation a:hover {
   color: #438001;
   font-weight: 700;
@@ -66,6 +72,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .section-title {
   font-size: 4rem;
   font-weight: 500;
@@ -88,16 +95,20 @@ p {
   animation: text_reveal 0.5s ease forwards;
   animation-delay: 1.5s;
 }
+
 #presentation h1:nth-child(1) {
   animation-delay: 0.8s;
 }
+
 #presentation h1:nth-child(2) {
   animation-delay: 1.8s;
 }
+
 #presentation h1:nth-child(3) {
   animation: text_reveal_name 0.5s ease forwards;
   animation-delay: 2.8s;
 }
+
 #presentation .cta {
   display: inline-block;
   padding: 10px 30px;
@@ -111,11 +122,13 @@ p {
   transition: 0.5s ease;
   transition-property: background-color, color;
 }
+
 #presentation .cta:hover {
   color: white;
   font-weight: 500;
   background-color: gold;
 }
+
 #presentation h1 span {
   position: absolute;
   top: 0;
@@ -126,15 +139,19 @@ p {
   animation-delay: 0.5s;
   background-color: gold;
 }
+
 #presentation h1:nth-child(1) span {
   animation-delay: 0.5s;
 }
+
 #presentation h1:nth-child(2) span {
   animation-delay: 1.5s;
 }
+
 #presentation h1:nth-child(3) span {
   animation-delay: 2.5s;
 }
+
 #presentation::after {
   content: "";
   position: absolute;
@@ -158,12 +175,15 @@ p {
   gap: 20px;
   background-color: white;
 }
+
 #portfolio .portfolio-header {
   width: 100%;
 }
+
 #portfolio .portfolio-header h1 {
   margin-bottom: 50px;
 }
+
 #portfolio .all-projects {
   display: flex;
   align-items: center;
@@ -171,6 +191,7 @@ p {
   flex-direction: column;
   background-color: transparent;
 }
+
 #portfolio .project-item {
   display: flex;
   align-items: center;
@@ -223,18 +244,22 @@ p {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   opacity: 0.2;
 }
+
 #portfolio .project-img img {
   transition: 0.5s ease transform;
 }
+
 #portfolio .project-item:hover .project-img img {
   transform: scale(1.1);
 }
-.section-stacks{
+
+.section-stacks {
   display: flex;
   flex-direction: column;
-  
+
 }
-.section-stacks h1{
+
+.section-stacks h1 {
   color: gold;
   text-align: center;
   margin-top: 30px;
@@ -242,21 +267,23 @@ p {
   font-size: 40px;
 }
 
-#my-stacks{
+#my-stacks {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   background-color: rgba(0, 0, 0, 0.5);
-   justify-content: space-evenly;
-  padding:  110px 0 0 0;
+  justify-content: space-evenly;
+  padding: 110px 0 0 0;
 }
-.stack{
+
+.stack {
   width: 25%;
   height: 350px;
   margin-bottom: 80px;
   border-radius: 8px;
 }
-footer{
+
+footer {
   background: black;
   height: 300px;
   display: flex;
@@ -264,6 +291,7 @@ footer{
   justify-content: space-around;
   color: white;
 }
+
 footer a {
   font-size: 16px;
   cursor: pointer;
@@ -279,26 +307,28 @@ footer a {
   font-size: 16px;
 }
 
-.comunication{
+.comunication {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-.comunication img{
+
+.comunication img {
   width: 20px;
   background-color: white;
- 
+
 }
 
-.social-media{
- display: flex;
- justify-content: center;
- gap: 10px;
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
+
 .social-media img {
   width: 35px;
   cursor: pointer;
- border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Keyframes */
@@ -308,6 +338,7 @@ footer a {
     color: white;
   }
 }
+
 @keyframes text_reveal_name {
   100% {
     color: gold;
@@ -320,6 +351,7 @@ footer a {
     width: 100%;
     left: 0;
   }
+
   100% {
     width: 0;
     left: 100%;
@@ -336,35 +368,42 @@ footer a {
     border-radius: 0;
     margin-bottom: 20px;
   }
+
   #portfolio .all-projects .project-info {
     height: 100%;
   }
+
   #portfolio .all-projects .project-img {
     height: 100%;
   }
+
   #portfolio .project-item:nth-child(even) {
     flex-direction: row-reverse;
   }
-  
+
 }
+
 @media (max-width:769px) {
-  #my-stacks{
+  #my-stacks {
     flex-direction: column;
     gap: 50px;
-   }
-   .stack{
+  }
+
+  .stack {
     width: 80%;
     margin: auto;
-   }
-   footer{
-     flex-direction: column     ;
-     height: auto;
-     gap: 50px;
-     align-items: center;
-     padding: 40px;
-     align-items: flex-start;
-   }
-   .comunication{
-     font-size: 14px;
-   }
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+    align-items: center;
+    padding: 40px;
+    align-items: flex-start;
+  }
+
+  .comunication {
+    font-size: 14px;
+  }
 }
